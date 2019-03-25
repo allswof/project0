@@ -1,0 +1,61 @@
+@media (max-width: 499px) {
+    ul a{
+        font-size: 20px;
+    }
+    ul {
+        margin-left: 5;
+        width: 100%;
+    }
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    border: 5px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    height: 50px;
+    font-size:30px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid orangered;
+}
+
+.ingredients {
+    background-color: orange;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.menup {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+#image {
+    background-color: gray;
+    border: 5px;
+    padding: 5px;
+}

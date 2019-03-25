@@ -1,0 +1,27 @@
+$color : green;
+
+nav {
+    border-top: 20px;
+    a {
+        color: $color;
+        padding-left: 10px;
+    }
+}
+
+%division {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.apetizers {
+    @extend %division;
+    background-color: rgb(241, 241, 85);
+}
+
+.desserts {
+    @extend %division;
+    background-color: lightblue;
+}
